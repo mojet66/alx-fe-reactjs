@@ -6,13 +6,14 @@ import WelcomeMessage from "./components/WelcomeMessage";
 import Header from "./components/Header";
 import MainContent from "./components/MainContent";
 import Footer from "./components/Footer";
+import UserProfile from "./components/UserProfile";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <div>
+      {/* <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -31,10 +32,16 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-      </p>
+      </p> */}
       <WelcomeMessage />
+      <UserProfile
+        name="Oladosu Emmanuel"
+        age="25"
+        bio="I love watching movies"
+      />
       <Header />
       <MainContent />
+
       <Footer />
     </>
   );
