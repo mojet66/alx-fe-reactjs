@@ -34,11 +34,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p> */}
       <WelcomeMessage />
-      <UserProfile
-        name="Oladosu Emmanuel"
-        age="25"
-        bio="I love watching movies"
-      />
+      <UserProfile name="Alice" age="25" bio="Loves hiking and photography" />
       <Header />
       <MainContent />
 
