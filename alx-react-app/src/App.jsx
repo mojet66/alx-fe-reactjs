@@ -36,7 +36,7 @@ function App() {
       <WelcomeMessage />
       <UserProfile
         name="Oladosu Emmanuel"
-        age="25"
+        Age="25"
         bio="I love watching movies"
       />
       <Header />
