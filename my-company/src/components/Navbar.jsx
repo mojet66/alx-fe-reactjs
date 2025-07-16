@@ -10,6 +10,7 @@ function Navbar() {
           display: "flex",
           gap: "1rem",
           textDecoration: "none",
+          justifyContent: "center",
         }}
       >
         <li>
