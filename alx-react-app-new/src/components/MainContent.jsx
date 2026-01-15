@@ -1,7 +1,7 @@
 function MainContent() {
   return (
     <main style={{ fontStyle: "italic", color: "red", fontSize: "40px" }}>
-      <marquee behavior="" direction="right">
+      <marquee behavior="" direction="left">
         <p>I love to visit New York, Paris, and Tokyo.</p>
       </marquee>
     </main>
