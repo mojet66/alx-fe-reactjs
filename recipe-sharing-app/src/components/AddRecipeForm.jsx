@@ -8,6 +8,9 @@ const AddRecipeForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    if (!title || !description) return;
+
     addRecipe({
       id: Date.now(),
       title,
