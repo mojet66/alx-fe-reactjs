@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Search from "./components/Search";
 function App() {
   return (
     <>
@@ -11,7 +12,8 @@ function App() {
         </Routes>
       </Router>
       <h1>My React App is working</h1>
-      {console.log(import.meta.env.VITE_APP_GITHUB_API_KEY)};
+      {console.log(import.meta.env.VITE_APP_GITHUB_API_KEY)}
+      <Search />
     </>
   );
 }

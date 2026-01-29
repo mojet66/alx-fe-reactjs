@@ -1,9 +1,7 @@
-import api from "./api";
+import axios from "axios";
 
-export const getUser = (username) => {
-  return api.get(`/users/${username}`);
+const fetchUserData = async (username) => {
+  const response = await axios.get(`https://api.github.com/users/${username}`);
+  return response.data;
 };
-
-export const getRepos = (username) => {
-  return api.get(`/users/${username}/repos`);
-};
+export default fetchUserData;
