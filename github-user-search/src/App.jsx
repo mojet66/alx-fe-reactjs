@@ -1,5 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Search from "./components/Search";
+import "./index.css";
+// import "./App.css";
 function App() {
   return (
     <>
@@ -12,7 +14,7 @@ function App() {
         </Routes>
       </Router>
       <h1>My React App is working</h1>
-      {console.log(import.meta.env.VITE_APP_GITHUB_API_KEY)}
+      <p className="font-bold text-green-600 text-lg">Tailwind is working</p>
       <Search />
     </>
   );

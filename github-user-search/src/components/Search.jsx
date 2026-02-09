@@ -14,8 +14,6 @@ const Search = () => {
     setLoading(true);
     setError(false);
 
-    console.log(username);
-
     try {
       const data = await fetchUserData(username);
       setUser(data);
